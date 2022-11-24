@@ -1,0 +1,6 @@
+**/.idea/
+# Project exclude paths
+springboot-liquibase/target/
+liquibase-changelog-generate/target/
+.DS_Store
+*.iml

@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - changeSet:
+      id: 20221124_165413_348__init_data_in_admin
+      author: hresh
+      changes:
+        - sql:
+            dbms: mysql
+            sql: "insert into admin(name,password) values('hresh','1234')"
+            stripComments:  true

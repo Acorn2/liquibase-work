@@ -1,0 +1,11 @@
+databaseChangeLog:
+  - changeSet:
+      id: 20221124_163754_923__add_column_address_in_admin
+      author: hresh
+      changes:
+        - addColumn:
+            tableName: admin
+            columns:
+              - column:
+                  name: address
+                  type: varchar(100)

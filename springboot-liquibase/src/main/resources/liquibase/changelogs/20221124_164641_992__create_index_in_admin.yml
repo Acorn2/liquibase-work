@@ -1,0 +1,11 @@
+databaseChangeLog:
+  - changeSet:
+      id: 20221124_164641_992__create_index_in_admin
+      author: hresh
+      changes:
+        - createIndex:
+            tableName: admin
+            indexName: idx_name
+            columns:
+              - column:
+                  name: name
